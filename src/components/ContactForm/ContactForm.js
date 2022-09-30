@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
-import { addContact } from '../../redux/contacts/actions';
+import { addContact } from '../../redux/contacts/contactsSlice';
 import { getContacts } from '../../redux/contacts/selectors';
 import {
   Form,

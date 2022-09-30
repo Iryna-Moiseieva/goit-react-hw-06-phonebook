@@ -6,13 +6,13 @@ export const Form = styled.form`
   align-items: flex-start;
   border: 1px solid black;
   margin: auto;
-  padding: 10px;
+  padding: 15px;
 `;
 
 export const Label = styled.label`
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: 600;
-  font-size: var(--font-size-100);
+  font-size: var(--font-size-300);
   color: var(--color-blue-200);
 `;
 
@@ -81,7 +81,7 @@ export const ButtonSubmit = styled.button.attrs(() => ({
 }))`
   display: block;
   margin: 0;
-  min-width: 120px;
+  min-width: 150px;
   padding: 6px;
   text-align: center;
   text-decoration: none;

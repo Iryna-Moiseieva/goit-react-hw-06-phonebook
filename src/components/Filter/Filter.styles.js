@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Label = styled.label`
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: 600;
-  font-size: var(--font-size-200);
+  font-size: var(--font-size-300);
   color: var(--color-gray-300);
 `;
 
@@ -14,7 +14,7 @@ export const FilterInput = styled.input.attrs(() => ({
   autoComplete: 'off',
 }))`
   display: block;
-  margin-top: 7px;
+  margin-top: 5px;
   border: 2px solid var(--color-gray-200);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px var(--color-gray-100);

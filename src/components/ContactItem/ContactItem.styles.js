@@ -30,7 +30,7 @@ export const ButtonDelete = styled.button.attrs(() => ({
 }))`
   display: block;
   margin: 0;
-  min-width: 80px;
+  min-width: 100px;
   padding: 5px;
   text-align: center;
   text-decoration: none;

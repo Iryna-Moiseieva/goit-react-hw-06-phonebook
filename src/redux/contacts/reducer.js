@@ -1,17 +1,17 @@
-// import { createReducer, combineReducers } from '@reduxjs/toolkit';
-// import { addContact, deleteContact, addFilter } from './actions';
+import { createReducer, combineReducers } from '@reduxjs/toolkit';
+import { addContact, deleteContact, addFilter } from './actions';
 
-// const items = createReducer([], {
-//   [addContact]: (state, { payload }) => [...state, payload],
-//   [deleteContact]: (state, { payload }) =>
-//     state.filter(({ id }) => id !== payload),
-// });
+const items = createReducer([], {
+  [addContact]: (state, { payload }) => [...state, payload],
+  [deleteContact]: (state, { payload }) =>
+    state.filter(({ id }) => id !== payload),
+});
 
-// const filter = createReducer('', {
-//   [addFilter]: (_, { payload }) => payload,
-// });
+const filter = createReducer('', {
+  [addFilter]: (_, { payload }) => payload,
+});
 
-// export default combineReducers({
-//   items,
-//   filter,
-// });
+export default combineReducers({
+  items,
+  filter,
+});
